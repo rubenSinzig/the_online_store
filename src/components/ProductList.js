@@ -13,7 +13,7 @@ const ProductList = () => {
 
   return (
     <React.Fragment>
-      <div>
+      <div className="bill">
         <button onClick={() => setTotalBill(store.bill())}>Total bill</button>
         <h6>{totalBill}€</h6>
       </div>

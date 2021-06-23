@@ -1,6 +1,6 @@
-import { useState } from "react"; // <-- for searchbar
+// import { useState } from "react"; // <-- for searchbar
 import { Store, StoreContext } from "./context";
-import ProductList from "./components/Productlist";
+import ProductList from "./components/ProductList";
 
 function App() {
   return (
