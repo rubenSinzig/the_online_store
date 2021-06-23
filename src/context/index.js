@@ -3,12 +3,12 @@ import Data from "../data.json";
 
 const Store = {
   data: Data,
-  cart: [],
+  // cart: [],
   print: (str) => console.log(str),
-  bill: function () {
-    return this.cart.reduce((acc, cur) => acc + cur.price, 0);
+  bill: function (cart) {
+    return cart.reduce((acc, cur) => acc + cur.price, 0);
   },
-  addToCart: (item) => Store.cart.push(item),
+  addToCart: (setCart, item) => setCart((prevState) => [...prevState, item]),
 };
 
 const StoreContext = React.createContext(Store);
