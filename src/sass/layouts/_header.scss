@@ -1,5 +1,12 @@
 .wrapper-header {
   width: 100vw;
-  height: 270px;
+  height: 350px;
   border: $help-border; // <--- don't forget to remove
+  @include flex-start;
+
+  .header-img {
+    width: 300px;
+    height: 300px;
+    border: $help-border; // <--- don't forget to remove
+  }
 }
