@@ -7,7 +7,6 @@ function App() {
   return (
     <StoreContext.Provider value={Store}>
       <Header />
-      <h1>Online Store</h1>
 
       <ProductList />
     </StoreContext.Provider>
