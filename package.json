@@ -1,7 +1,7 @@
 {
   "name": "online-store",
   "version": "0.1.0",
-  "homepage": "http://rubenSinzig.github.io/online-store",
+  "homepage": "https://rubensinzig.github.io/the_online_store/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
