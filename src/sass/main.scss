@@ -1,16 +1,5 @@
 @import "./layouts/_layouts-dir";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  padding: 5px;
-}
+@import "./base/_base-dir";
 
 h1 {
   text-align: center;
