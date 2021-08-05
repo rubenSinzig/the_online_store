@@ -1,11 +1,7 @@
 @import "./layouts/_layouts-dir";
 @import "./base/_base-dir";
 @import "./components/_components-dir";
-
-h1 {
-  text-align: center;
-  text-decoration: underline rgb(132, 132, 255);
-}
+@import "./abstracts/_abstracts-dir";
 
 .bill {
   width: 100%;
