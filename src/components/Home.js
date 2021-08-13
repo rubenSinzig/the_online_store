@@ -51,7 +51,7 @@ const Home = () => {
         <div className="home-img">
           <img
             src={`${process.env.PUBLIC_URL}/images/home_iPad.png`}
-            alt="Apple macBook"
+            alt="iPad"
           />
         </div>
         <div className="home-info">
@@ -66,9 +66,28 @@ const Home = () => {
         </div>
       </div>
 
-      {/* product four */}
+      {/* iPhone */}
+      <div className="home-products ">
+        <div className="home-info home-right">
+          <h2>iPhone</h2>
+          <h4>Has more on it, than it costs.</h4>
+          <Link className="home-link" to="/products">
+            BUY
+            <span>
+              <FiArrowUpRight />
+            </span>
+          </Link>
+        </div>
 
-      {/* product five */}
+        <div className="home-img">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/home_iPhone.png`}
+            alt="iPhone"
+          />
+        </div>
+      </div>
+
+      {/* comming soon */}
     </div>
   );
 };
