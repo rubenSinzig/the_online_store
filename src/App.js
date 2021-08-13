@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <StoreContext.Provider value={Store}>
-      <Header />
+      <Header /> {/* "More Info" and "Buy" does not work yet */}
       <Nav />
     </StoreContext.Provider>
   );

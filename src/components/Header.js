@@ -22,7 +22,7 @@ const Header = () => {
         {/* links to product iPhone */}
         <Router>
           <div className="header-product-link">
-            <Link to="/products">
+            <Link to="/about">
               <h6>
                 More Info
                 <span>
