@@ -1,7 +1,14 @@
 .wrapper-header {
   width: 100vw;
   height: 350px;
-  background: linear-gradient(0deg, #d2e4ff, #a9c0e2, #044382);
+  background: linear-gradient(
+    0deg,
+    #ffffff,
+    #ecf3ff,
+    #b9d5ff,
+    #9ebdeb,
+    #0b5aaa
+  );
   @include flex-start;
 
   .header-img {

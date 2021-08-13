@@ -1,6 +1,6 @@
 .wrapper-nav {
   @include flex-center;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 
   .nav-link {
     color: black;
@@ -14,6 +14,6 @@
   }
 
   .nav-products {
-    margin: 0 30px;
+    margin: 0 45px;
   }
 }
