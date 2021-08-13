@@ -70,7 +70,7 @@ const Home = () => {
       <div className="home-products ">
         <div className="home-info home-right">
           <h2>iPhone</h2>
-          <h4>Has more on it, than it costs.</h4>
+          <h4>This step is a leap.</h4>
           <Link className="home-link" to="/products">
             BUY
             <span>
