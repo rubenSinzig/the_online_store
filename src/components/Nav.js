@@ -1,5 +1,11 @@
 import react from "react";
-import { Switch, Route, Link, BrowserRouter as Router } from "react-router-dom";
+import {
+  Redirect,
+  Switch,
+  Route,
+  Link,
+  BrowserRouter as Router,
+} from "react-router-dom";
 import ProductList from "./ProductList";
 import Home from "./Home";
 import About from "./About";
@@ -27,8 +33,10 @@ const Nav = () => {
           path="/the_online_store/products"
           component={ProductList}
         />
-
         <Route exact path="/the_online_store/about" component={About} />
+
+        {/* Redirect all 404's to home */}
+        <Redirect to="/the_online_store" />
       </Switch>
     </Router>
   );
