@@ -8,15 +8,15 @@ const Nav = () => {
   return (
     <Router>
       <div className="wrapper-nav">
-        <Link className="nav-link nav-home" to="/">
+        <Link className="nav-link nav-home" to="/the_online_store">
           Home
         </Link>
 
-        <Link className="nav-link nav-products" to="/products">
+        <Link className="nav-link nav-products" to="/the_online_store/products">
           Products
         </Link>
 
-        <Link className="nav-link nav-about" to="/about">
+        <Link className="nav-link nav-about" to="/the_online_store/about">
           About
         </Link>
       </div>

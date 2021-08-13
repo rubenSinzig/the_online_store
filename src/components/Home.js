@@ -16,7 +16,7 @@ const Home = () => {
         <div className="home-info">
           <h2>MacBook</h2>
           <h4>Which Mac is right for you?</h4>
-          <Link className="home-link" to="/products">
+          <Link className="home-link" to="/the_online_store/products">
             BUY
             <span>
               <FiArrowUpRight />
@@ -30,7 +30,7 @@ const Home = () => {
         <div className="home-info home-right">
           <h2>Apple Watch</h2>
           <h4>Has more on it, than it costs.</h4>
-          <Link className="home-link" to="/products">
+          <Link className="home-link" to="/the_online_store/products">
             BUY
             <span>
               <FiArrowUpRight />
@@ -57,7 +57,7 @@ const Home = () => {
         <div className="home-info">
           <h2>iPad</h2>
           <h4>The ultimate iPad experience.</h4>
-          <Link className="home-link" to="/products">
+          <Link className="home-link" to="/the_online_store/products">
             BUY
             <span>
               <FiArrowUpRight />
@@ -71,7 +71,7 @@ const Home = () => {
         <div className="home-info home-right">
           <h2>iPhone</h2>
           <h4>This step is a leap.</h4>
-          <Link className="home-link" to="/products">
+          <Link className="home-link" to="/the_online_store/products">
             BUY
             <span>
               <FiArrowUpRight />
