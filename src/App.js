@@ -1,4 +1,5 @@
 // import { useState } from "react"; // <-- for searchbar
+import React from "react";
 import { Store, StoreContext } from "./context";
 import ProductList from "./components/ProductList";
 import Header from "./components/Header";
