@@ -24,8 +24,27 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      {/* product two */}
 
+      {/* Watch */}
+      <div className="home-products ">
+        <div className="home-info home-right">
+          <h2>Apple Watch</h2>
+          <h4>Has more on it, than it costs.</h4>
+          <Link className="home-link" to="/products">
+            BUY
+            <span>
+              <FiArrowUpRight />
+            </span>
+          </Link>
+        </div>
+
+        <div className="home-img">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/home_watch.png`}
+            alt="Apple Watch"
+          />
+        </div>
+      </div>
       {/* product three */}
 
       {/* product four */}
