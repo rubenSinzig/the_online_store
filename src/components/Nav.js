@@ -1,10 +1,11 @@
 import react from "react";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Switch, Route, Link, BrowserRouter as Router } from "react-router-dom";
+import ProductList from "./ProductList";
 
 const Nav = () => {
   return (
-    <Router>
-      <div className="wrapper-nav">
+    <div className="wrapper-nav">
+      <Router>
         <div className="nav-home">
           <Link to="/">Home</Link>
         </div>
@@ -16,8 +17,15 @@ const Nav = () => {
         <div className="nav-about">
           <Link to="/about">About</Link>
         </div>
-      </div>
-    </Router>
+
+        <Switch>
+          {/* <Route path="/" component={}/> */}
+          <Route path="/products" component={ProductList} />
+
+          {/* <Route path="/about" component={}/> */}
+        </Switch>
+      </Router>
+    </div>
   );
 };
 
