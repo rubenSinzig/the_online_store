@@ -1,22 +1,18 @@
 .wrapper-header {
   width: 100vw;
   height: 350px;
-  border: $help-border; // <--- don't forget to remove
   background: linear-gradient(0deg, #d2e4ff, #a9c0e2, #044382);
   @include flex-start;
 
   .header-img {
     width: 300px;
     height: 300px;
-    border: $help-border; // <--- don't forget to remove
     margin-left: 20px;
   }
 
   .header-text {
-    border: $help-border; // <--- don't forget to remove
     align-self: flex-end;
     margin: 0 0 40px 5px;
-
     .header-product-link {
       @include flex-center-space;
     }
