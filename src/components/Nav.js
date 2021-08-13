@@ -22,9 +22,13 @@ const Nav = () => {
       </div>
       <Switch>
         <Route exact path="/the_online_store" component={Home} />
-        <Route exact path="/products" component={ProductList} />
+        <Route
+          exact
+          path="/the_online_store/products"
+          component={ProductList}
+        />
 
-        <Route exact path="/about" component={About} />
+        <Route exact path="/the_online_store/about" component={About} />
       </Switch>
     </Router>
   );
