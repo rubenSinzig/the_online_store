@@ -16,7 +16,7 @@ const Header = () => {
       {/* wrapper for iPhone text */}
       <div className="header-text">
         {/* iPhone text */}
-        <h2>iPhone</h2>
+        <h2>iPhone 12</h2>
         <h4>Almost too fast to be true</h4>
 
         {/* links to product iPhone */}
