@@ -1,19 +1,21 @@
 import react from "react";
-import { Route, BrowserRouter as Router } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 
 const Nav = () => {
   return (
     <Router>
       <div className="wrapper-nav">
-        <Route>
-          <div className="nav-home">Home</div>
-        </Route>
-        <Route>
-          <div className="nav-products">Products</div>
-        </Route>
-        <Route>
-          <div className="nav-about">About</div>
-        </Route>
+        <div className="nav-home">
+          <Link to="/">Home</Link>
+        </div>
+
+        <div className="nav-products">
+          <Link to="/products">Products</Link>
+        </div>
+
+        <div className="nav-about">
+          <Link to="/about">About</Link>
+        </div>
       </div>
     </Router>
   );

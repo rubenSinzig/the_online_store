@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
         {/* links to product iPhone */}
         <Router>
           <div className="header-product-link">
-            <Link to="/#">
+            <Link to="/products">
               <h6>
                 More Info
                 <span>
@@ -30,7 +30,7 @@ const Header = () => {
                 </span>
               </h6>
             </Link>
-            <Link to="/#">
+            <Link to="/products">
               <h6>
                 BUY
                 <span>
