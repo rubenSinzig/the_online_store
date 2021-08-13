@@ -21,7 +21,7 @@ const Nav = () => {
         </Link>
       </div>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/the_online_store" component={Home} />
         <Route exact path="/products" component={ProductList} />
 
         <Route exact path="/about" component={About} />
