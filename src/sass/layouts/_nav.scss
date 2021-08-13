@@ -1,6 +1,6 @@
 .wrapper-nav {
   @include flex-center;
-  padding-bottom: 50px;
+  padding: 40px 0 60px 0;
 
   .nav-link {
     color: black;
@@ -10,6 +10,7 @@
     &:hover {
       color: #07457b;
       transform: scale(1.1);
+      transform: translate(0, -5px);
     }
   }
 
