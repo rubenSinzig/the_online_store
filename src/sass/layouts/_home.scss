@@ -16,9 +16,27 @@
       }
     }
     .home-info {
+      align-self: flex-end;
+      padding-bottom: 50px;
       width: 50%;
-      height: 200px;
-      border: $help-border; // <------ remove
+
+      h2 {
+        font-size: 42px;
+      }
+
+      h4 {
+        font-size: 22px;
+      }
+
+      .home-link {
+        font-size: 16px;
+        text-decoration: none;
+        color: #044580;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
