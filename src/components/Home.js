@@ -88,6 +88,12 @@ const Home = () => {
       </div>
 
       {/* comming soon */}
+      <div className="wrapper-home-soon">
+        <div className="home-soon"></div>
+        <div className="home-soon"></div>
+        <div className="home-soon"></div>
+        <div className="home-soon"></div>
+      </div>
     </div>
   );
 };
