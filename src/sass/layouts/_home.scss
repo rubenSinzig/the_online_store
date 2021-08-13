@@ -1,0 +1,24 @@
+.wrapper-home {
+  @include flex-center;
+
+  .home-products {
+    width: 100vw;
+    @include flex-center;
+
+    .home-img {
+      width: 50%;
+      @include flex-center;
+
+      img {
+        width: 450px;
+        height: 450px;
+        @include br-product-img;
+      }
+    }
+    .home-info {
+      width: 50%;
+      height: 200px;
+      border: $help-border; // <------ remove
+    }
+  }
+}
