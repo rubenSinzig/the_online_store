@@ -75,6 +75,13 @@
         @include br-product-img;
         @include flex-center;
         flex-direction: column;
+
+        &:hover {
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
       }
     }
   }
