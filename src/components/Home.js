@@ -94,24 +94,52 @@ const Home = () => {
             src={`${process.env.PUBLIC_URL}/images/home_soon_store.jpg`}
             alt="Apple Store"
           />
+
+          <div className="home-soon-info">
+            <h3>Stores in your area.</h3>
+            <h6>
+              Each store has dedicated teams for support, learning and more.
+            </h6>
+          </div>
         </div>
         <div className="home-soon">
           <img
             src={`${process.env.PUBLIC_URL}/images/home_soon_airPods.jpg`}
             alt="Apple Store"
           />
+
+          <div className="home-soon-info">
+            <h3>Stores in your area.</h3>
+            <h6>
+              Each store has dedicated teams for support, learning and more.
+            </h6>
+          </div>
         </div>
         <div className="home-soon">
           <img
             src={`${process.env.PUBLIC_URL}/images/home_soon_keyboard.jpg`}
             alt="Apple Store"
           />
+
+          <div className="home-soon-info">
+            <h3>Stores in your area.</h3>
+            <h6>
+              Each store has dedicated teams for support, learning and more.
+            </h6>
+          </div>
         </div>
         <div className="home-soon">
           <img
             src={`${process.env.PUBLIC_URL}/images/home_soon_store2.jpg`}
             alt="Apple Store"
           />
+
+          <div className="home-soon-info">
+            <h3>Stores in your area.</h3>
+            <h6>
+              Each store has dedicated teams for support, learning and more.
+            </h6>
+          </div>
         </div>
       </div>
     </div>
