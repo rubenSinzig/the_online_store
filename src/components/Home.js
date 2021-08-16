@@ -89,7 +89,12 @@ const Home = () => {
 
       {/* comming soon */}
       <div className="wrapper-home-soon">
-        <div className="home-soon"></div>
+        <div className="home-soon">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/home_soon_store.jpg`}
+            alt="Apple Store"
+          />
+        </div>
         <div className="home-soon"></div>
         <div className="home-soon"></div>
         <div className="home-soon"></div>
