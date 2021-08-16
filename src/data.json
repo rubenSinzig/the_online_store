@@ -1,51 +1,51 @@
 [
   {
     "id": 0,
-    "productName": "apple",
+    "productName": "macBook",
     "icon": "/images/home_macbook.png",
-    "price": 699.0,
+    "price": 699,
     "inventory": 8
   },
   {
     "id": 1,
-    "productName": "watermelon",
-    "icon": "🍉",
-    "price": 90,
-    "inventory": 3
+    "productName": "Watch",
+    "icon": "/images/home_watch.png",
+    "price": 125,
+    "inventory": 18
   },
   {
     "id": 2,
-    "productName": "pizza",
-    "icon": "🍕",
-    "price": 10,
-    "inventory": 100
+    "productName": "iPad",
+    "icon": "/images/home_iPad.png",
+    "price": 479,
+    "inventory": 5
   },
   {
     "id": 3,
-    "productName": "salad",
-    "icon": "🥗",
-    "price": 40,
-    "inventory": 0
+    "productName": "iPhone",
+    "icon": "/images/home_iPhone.png",
+    "price": 599,
+    "inventory": 27
   },
   {
     "id": 4,
-    "productName": "ice cream",
-    "icon": "🍦",
-    "price": 7,
-    "inventory": 66
+    "productName": "AirPods",
+    "icon": "/images/home_soon_airPods.jpg",
+    "price": 130,
+    "inventory": 0
   },
   {
     "id": 5,
-    "productName": "water",
-    "icon": "🧊",
-    "price": 10,
+    "productName": "Keyboard",
+    "icon": "/images/home_soon_keyboard.jpg",
+    "price": 95,
     "inventory": 0
   },
   {
     "id": 6,
-    "productName": "sushi",
-    "icon": "🍣",
-    "price": 33,
-    "inventory": 3
+    "productName": "Gift Card ",
+    "icon": "/images/home_soon_store2.jpg",
+    "price": 100,
+    "inventory": 99
   }
 ]
