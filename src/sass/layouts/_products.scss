@@ -12,9 +12,17 @@
 
 .wrapper-product-item {
   @include flex-center;
+  margin-bottom: 30px;
 
   img {
-    width: 300px;
+    width: 250px;
+    height: 250px;
     @include br-product-img;
+  }
+
+  .product-info {
+    @include flex-center;
+    flex-direction: column;
+    margin-left: 30px;
   }
 }
