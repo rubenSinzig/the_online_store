@@ -2,9 +2,9 @@
   {
     "id": 0,
     "productName": "apple",
-    "icon": "🍏",
-    "price": 3,
-    "inventory": 10
+    "icon": "/images/home_macbook.png",
+    "price": 699.0,
+    "inventory": 8
   },
   {
     "id": 1,

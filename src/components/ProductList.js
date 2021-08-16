@@ -4,7 +4,6 @@ import { StoreContext } from "../context";
 
 const ProductList = () => {
   const store = useContext(StoreContext);
-  //   const [cart, setCart] = useState([]);
   const [totalBill, setTotalBill] = useState(0);
   const [cart, setCart] = useState([]);
   const items = store.data.map((item, i) => (
@@ -22,10 +21,7 @@ const ProductList = () => {
 
   return (
     <React.Fragment>
-      <div className="bill">
-        {/* <button onClick={() => setTotalBill(store.bill(cart))}>
-          Total bill
-        </button> */}
+      <div className="cart">
         <p>Total Bill</p>
         <h6>{totalBill}€</h6>
       </div>
