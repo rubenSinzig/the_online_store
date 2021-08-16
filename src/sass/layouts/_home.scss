@@ -46,14 +46,12 @@
   }
 
   .wrapper-home-soon {
-    border: $help-border; // <------------ remove
     width: 100vw;
     @include flex-center;
     justify-content: space-evenly;
     flex-wrap: wrap;
 
     .home-soon {
-      border: 1px dashed blue; // <------------ remove
       width: 500px;
       height: 500px;
       margin-bottom: 50px;

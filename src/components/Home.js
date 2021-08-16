@@ -95,9 +95,24 @@ const Home = () => {
             alt="Apple Store"
           />
         </div>
-        <div className="home-soon"></div>
-        <div className="home-soon"></div>
-        <div className="home-soon"></div>
+        <div className="home-soon">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/home_soon_airPods.jpg`}
+            alt="Apple Store"
+          />
+        </div>
+        <div className="home-soon">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/home_soon_keyboard.jpg`}
+            alt="Apple Store"
+          />
+        </div>
+        <div className="home-soon">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/home_soon_store2.jpg`}
+            alt="Apple Store"
+          />
+        </div>
       </div>
     </div>
   );
