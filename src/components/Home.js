@@ -109,10 +109,8 @@ const Home = () => {
           />
 
           <div className="home-soon-info">
-            <h3>Stores in your area.</h3>
-            <h6>
-              Each store has dedicated teams for support, learning and more.
-            </h6>
+            <h3>AirPods</h3>
+            <h6>There are new options for engraving AirPods.</h6>
           </div>
         </div>
         <div className="home-soon">
@@ -122,9 +120,9 @@ const Home = () => {
           />
 
           <div className="home-soon-info">
-            <h3>Stores in your area.</h3>
+            <h3>Magic Keyboard</h3>
             <h6>
-              Each store has dedicated teams for support, learning and more.
+              The Magic Keyboard makes typing especially comfortable and easy.
             </h6>
           </div>
         </div>
@@ -135,10 +133,8 @@ const Home = () => {
           />
 
           <div className="home-soon-info">
-            <h3>Stores in your area.</h3>
-            <h6>
-              Each store has dedicated teams for support, learning and more.
-            </h6>
+            <h3>The Store</h3>
+            <h6>The best way to buy your favorite products.</h6>
           </div>
         </div>
       </div>
